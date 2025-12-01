@@ -1,0 +1,14 @@
+{
+    "name": "Simple Cookie Consent Banner",
+    "slug": "simple-cookie-consent-banner",
+    "version": "2.3.0",
+    "download_url": "https://raw.githubusercontent.com/lazytitant9099/cookie-banner-updates/main/simple-cookie-consent-banner.zip",
+    "requires": "5.0",
+    "tested": "6.5",
+    "requires_php": "7.4",
+    "last_updated": "2024-03-21 12:00:00",
+    "sections": {
+        "description": "A category-based, GDPR-compliant cookie consent banner with tracking integrations and cookie discovery.",
+        "changelog": "<h4>2.3.0</h4><ul><li>Added auto-update mechanism via GitHub.</li><li>Improved cookie discovery.</li></ul>"
+    }
+}
