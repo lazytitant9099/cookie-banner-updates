@@ -1,14 +1,14 @@
 {
     "name": "Simple Cookie Consent Banner",
     "slug": "simple-cookie-consent-banner",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "download_url": "https://raw.githubusercontent.com/lazytitant9099/cookie-banner-updates/main/simple-cookie-consent-banner.zip",
     "requires": "5.0",
-    "tested": "6.5",
+    "tested": "6.7",
     "requires_php": "7.4",
-    "last_updated": "2024-03-21 12:00:00",
+    "last_updated": "2026-02-11 15:50:00",
     "sections": {
         "description": "A category-based, GDPR-compliant cookie consent banner with tracking integrations and cookie discovery.",
-        "changelog": "<h4>2.3.0</h4><ul><li>Added auto-update mechanism via GitHub.</li><li>Improved cookie discovery.</li></ul>"
+        "changelog": "<h4>2.3.1</h4><ul><li>Security: Fixed SQL injection risk with prepared statements.</li><li>Security: Fixed XSS in admin summary (uses textContent).</li><li>Security: Improved IP detection behind reverse proxies (Cloudflare, nginx).</li><li>Fix: Cookie discovery now works with page caching plugins.</li><li>Fix: Removed jQuery dependency for Matomo consent.</li><li>GDPR: Added consent expiry after 365 days.</li><li>Performance: Added minified JavaScript (63% smaller).</li><li>Added uninstall cleanup handler.</li></ul>"
     }
 }
